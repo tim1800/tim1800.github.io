@@ -10,14 +10,90 @@
 </head>
 
 <body>
-    <nav class="sitenavigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-	<h1>Hello World</h1>
+	<header>
+		<h1>
+			<a href="index.html"><img src="images/header.jpg" width="666" height="214" alt="Mont Travel"></a>
+		</h1>
+	</header>
+	<nav class="site-navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<h2>Request a Quote</h2>
+	<form action="results.html">
+		<p class="form-instructions">* indicates a required field</p>
+		<fieldset class="contactinfo">
+			<label for="firstname">
+                First Name
+                <input type="text" name="firstname" id="firstname" required>
+            </label>
+			<label for="lastname">
+                Last Name
+                <input type="text" name="lastname" id="lastname" required>
+            </label>
+			<label for="email">
+                Email Address
+                <input type="email" name="email" id="email" required>
+            </label>
+		</fieldset>
+		<fieldset class="reserveinfo">
+
+			<label for="start-month">Start Month</label>
+
+			<select id="start-month" name="start-month">
+                <option value="01">January</option>
+                     <option value="02">February</option>
+                     <option value="03">March</option>
+                     <option value="04">April</option>
+                     <option value="05">May</option>
+                     <option value="06">June</option>
+                     <option value="07">July</option>
+                     <option value="08">August</option>
+                     <option value="09">September</option>
+                     <option value="10">October</option>
+                     <option value="11">November</option>
+                     <option value="12">December</option>
+                  </select>
+			<label for="start-day">Start Day</label>
+
+			<select id="start-day" name="start-day">
+                     <option value="01">1</option>
+                     <option value="02">2</option>
+                     <option value="03">3</option>
+                     <option value="04">4</option>
+                     <option value="05">5</option>
+                     <option value="06">6</option>
+                     <option value="07">7</option>
+                     <option value="08">8</option>
+                     <option value="09">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="27">27</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+                     <option value="30">30</option>
+                     <option value="31">31</option>
+    </form>
+
 	<p>I'm hosted with GitHub Pages.</p>
 </body>
 
