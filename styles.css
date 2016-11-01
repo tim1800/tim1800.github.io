@@ -91,3 +91,15 @@ input, textarea {
     display: block;
 
 }
+
+/* label styles */
+label, .reserveinfo p{
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+label:before, .reserveinfo p:before {
+    content: "* ";
+    color: red;
+}
